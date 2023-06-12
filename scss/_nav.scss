@@ -1,0 +1,22 @@
+menu, a{
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 2px;
+    padding: 0;
+    float: left;
+    text-align: center;
+    width: 100%;
+    color: whitesmoke;
+    
+    li,ul{
+        display: inline-block;
+        outline: 1px;
+        width: 100px;
+        line-height: 20px;
+        padding: 10px;
+        margin: 10px;}
+
+    li:hover{
+        background-color: rgb(29, 28, 28);
+        border-radius: 5px;}
+}
